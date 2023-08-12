@@ -2,9 +2,7 @@ package com.example.targetdate.util;
 
 import android.util.Log;
 
-/**
- * Created by Devyani on 14-07-2016.
- */
+
 public class Logger {
 
     private static boolean isLogEnable = true;
