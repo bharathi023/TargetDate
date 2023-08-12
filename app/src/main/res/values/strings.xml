@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Target Date</string>
+
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="reminder_me">Remember Me</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="create_new_one">Create new one</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">User Name</string>
+    <string name="terms_and_condition">By signing up you accept the term of service and privacy policy</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="already_have_password">Already have password?</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="send">Send</string>
+
+    <string name="validate_editext" translatable="false">This Field is Required</string>
+    <string name="invalidate_email" translatable="false">Please enter valid email address</string>
+    <string name="valid_phonenumber" translatable="false">Please enter valid phone number</string>
+    <string name="editext_validatePassword" translatable="false">Passwords do not match</string>
+    <string name="user_name_exist">User name already exists, Please try with different.</string>
+    <string name="email_exist">Email already exists, Please try with different.</string>
+    <string name="registration_success">Congratulation, your registration has been successfully created.</string>
+    <string name="registration_un_success">Something went wrong. User Registration failed, Please try again...</string>
+    <string name="mobile_exist">Mobile Number already exists, Please try with different.</string>
+    <string name="please_select_trerms_and_conditions" translatable="false">Please accept Terms &amp; Conditions</string>
+    <string name="invalid_login_or_password" translatable="false">Invalid login or password.</string>
+    <string name="user_not_exist">User not found. Please try with different email.</string>
+    <string name="please_click_back_againto_exist" translatable="false">Please click BACK again to exit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="custom">Custom</string>
+
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="start_date">Start Date</string>
+    <string name="preferred_time">Preferred Time</string>
+    <string name="period">Period</string>
+    <string name="create">Create</string>
+
+    <string name="add_category_success">Congratulation, your category has been successfully added.</string>
+    <string name="add_category_un_success">Something went wrong. Category adding failed, Please try again...</string>
+<string name="choose_icon">Choose Icon</string>
+    <string name="please_select_date">Please select start date</string>
+    <string name="please_choose_icon">Please choose icon</string>
+</resources>

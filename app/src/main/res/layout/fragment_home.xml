@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragements.HomeFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/welcomenote"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:gravity="center"
+           android:padding="15dp"
+           android:text="adfasdf"
+           android:textColor="@color/white"
+           android:textSize="20sp"
+           android:textStyle="normal">
+
+
+       </TextView>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/categories_list"
+           android:layout_margin="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_above="@+id/custom_layout"
+           android:layout_centerInParent="true"
+
+           android:layout_below="@+id/welcomenote">
+
+
+       </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+       <LinearLayout
+           android:id="@+id/custom_layout"
+           android:layout_alignParentBottom="true"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:padding="15dp"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+
+           <Button
+               style="@style/btn_style"
+               android:id="@+id/customBtn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:background="@drawable/rectangel_bg"
+               android:text="@string/custom"
+               android:textColor="@android:color/black"
+               android:textSize="18sp"
+               />
+
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</FrameLayout>
