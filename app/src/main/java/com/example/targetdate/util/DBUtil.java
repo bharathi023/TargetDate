@@ -12,9 +12,7 @@ import com.example.targetdate.models.UserLoginDetails;
 import java.util.ArrayList;
 
 
-/**
- * Created by Raja.p on 09-08-2016.
- */
+
 public class DBUtil extends DBSupportUtil {
 
     private static final int DB_VERSION_NUMBER = 1;
